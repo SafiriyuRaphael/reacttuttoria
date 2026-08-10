@@ -4,7 +4,7 @@ import { NAVLINKS } from "./constants/navItems";
 const Header = () => {
   return (
     <header>
-      <h1>Welcome</h1>
+      <h1>Raph tut</h1>
       <nav>
         <ul>
           {/* <li>
