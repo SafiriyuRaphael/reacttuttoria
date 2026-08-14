@@ -1,5 +1,6 @@
 import Button from "./components/button";
 import { NAVLINKS } from "./constants/navItems";
+import { Search } from "lucide-react";
 
 // xs  --  small device
 // sm  --   medium device
@@ -21,7 +22,8 @@ const Header = () => {
   return (
     <header className="flex items-center  justify-between px-4 bg-[#fef3c7]">
       <h1 className="text-4xl text-[#dc2626]/20 hover:text-red-700 duration-800 transition-all">
-        Raph tutorials
+        Raph tutorials{" "}
+        <Search color="brown" size={280} className="animate-spin" />
       </h1>
       <nav>
         <ul>
